@@ -22,13 +22,25 @@ if(q1.toLowerCase() == "time"){
       var q4 = prompt("Does JB want to send them to the past or to the future?");
       if(q4 == "past"){
         alert("Nice, nice final question!");
+        var q5 prompt("What is Jonah's friend's name?");
+        if(q5.toLowerCase() == "chip"){
+          alert("YEAH!");
+          alert("You win......");
+          alert("Nothing yet, there is one more question.");
+          var q6 = prompt("What is the name of this book?");
+          if("")
+        } else {
+          alert("You have a real CHIP on the shoulder, don't you.");
+          window.location.href = "https://en.wikipedia.org/wiki/Potato_chip";
+        }
       } else {
         alert("Sorry, keep trying.");
             window.location.href = "about";
       }
     } else if (q3.toLowerCase() == "justin bieber"){
+      alert("BABY BABY BABY! OH LIKE BABY BABY BABY OH!")
       alert("Wow, I didn't know Justin Bieber was in the book! (Your wrong btw)");
-      window.location.href = "https://en.wikipedia.org/wiki/Justin_Bieber"
+      window.location.href = "https://www.youtube.com/watch?v=kffacxfA7G4"
     } else {
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
