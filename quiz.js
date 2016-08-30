@@ -28,7 +28,9 @@ if(q1.toLowerCase() == "time"){
           alert("You win......");
           alert("Nothing yet, there is one more question.");
           var q6 = prompt("What is the name of this book?");
-          if("")
+          if(q6.toLowerCase() == "found"){
+            
+          }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
           window.location.href = "https://en.wikipedia.org/wiki/Potato_chip";
