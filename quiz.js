@@ -22,7 +22,7 @@ if(q1.toLowerCase() == "time"){
       var q4 = prompt("Does JB want to send them to the past or to the future?");
       if(q4 == "past"){
         alert("Nice, nice final question!");
-        var q5 prompt("What is Jonah's friend's name?");
+        var q5 = prompt("What is Jonah's friend's name?");
         if(q5.toLowerCase() == "chip"){
           alert("YEAH!");
           alert("You win......");
