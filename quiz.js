@@ -20,7 +20,7 @@ if(q1.toLowerCase() == "time"){
     if(q3.toLowerCase() == "janitor boy"){
       alert("Yep, you really did study, didn't you");
       var q4 = prompt("Does JB want to send them to the past or to the future?");
-      if(q4 == "past"){
+      if(q4.toLowerCase() == "past"){
         alert("Nice, nice final question!");
         var q5 = prompt("What is Jonah's friend's name?");
         if(q5.toLowerCase() == "chip"){
