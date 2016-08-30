@@ -7,7 +7,8 @@ if (ready == true){
 if(q1.toLowerCase() == "time"){
   alert("COOOOOOOOOOORECT!");
 } else {
-  alert("Nope, go study some more.");
+  alert("You......");
+  alert("Failed go read the book or look at the plot summary.");
     window.location.href = "about";
 }
 
