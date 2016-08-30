@@ -29,7 +29,11 @@ if(q1.toLowerCase() == "time"){
           alert("Nothing yet, there is one more question.");
           var q6 = prompt("What is the name of this book?");
           if(q6.toLowerCase() == "found"){
-            
+           alert("YOU WIN......");
+           alert("Drumroll please....");
+           alert("A link to my game (that I'm still working on)!");
+           alert("And an air 5");
+           window.location.href = "https://ninja25538.github.io/TheNightmare/"
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
