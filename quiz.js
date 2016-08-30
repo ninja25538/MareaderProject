@@ -14,6 +14,22 @@ if(q1.toLowerCase() == "time"){
     alert("Eh ,guess what....");
     alert("You got it right!");
     alert("Impressive...");
+    prompt("What is my favorite character in the book?");
+    alert("Just kidding =)");
+    var q3 = prompt("What does JB stand for (this time you can use two words)");
+    if(q3.toLowerCase() == "janitor boy"){
+      alert("Yep, you really did study, didn't you");
+      var q4 = prompt("Does JB want to send them to the past or to the future?");
+      if(q4 == "past"){
+        alert("Nice, nice final question!");
+      } else {
+        alert("Sorry, keep trying.");
+            window.location.href = "about";
+      }
+    }
+  } else {
+    alert("NOPE! Go read the plot summary a little better");
+    window.location.href = "about";
   }
 } else {
   alert("You......");
