@@ -6,6 +6,15 @@ if (ready == true){
 
 if(q1.toLowerCase() == "time"){
   alert("COOOOOOOOOOORECT!");
+  prompt("Is this too easy for you?");
+  alert("Well ok then")
+  alert("Next question....");
+  var q2 = prompt("What is the name of Jonah's sister?");
+  if(q2.toLowerCase() == "katherine"){
+    alert("Eh ,guess what....");
+    alert("You got it right!");
+    alert("Impressive...");
+  }
 } else {
   alert("You......");
   alert("Failed go read the book or look at the plot summary.");
