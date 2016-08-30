@@ -16,7 +16,7 @@ if(q1.toLowerCase() == "time"){
     alert("Impressive...");
     prompt("What is my favorite character in the book?");
     alert("Just kidding =)");
-    var q3 = prompt("What does JB stand for (this time you can use two words)");
+    var q3 = prompt("What does JB stand for in the book. (this time you use two words)");
     if(q3.toLowerCase() == "janitor boy"){
       alert("Yep, you really did study, didn't you");
       var q4 = prompt("Does JB want to send them to the past or to the future?");
@@ -27,8 +27,11 @@ if(q1.toLowerCase() == "time"){
             window.location.href = "about";
       }
     } else if (q3.toLowerCase() == "justin bieber"){
-      alert("Wow, I didn't know Justin Bieber was in the book!");
+      alert("Wow, I didn't know Justin Bieber was in the book! (Your wrong btw)");
       window.location.href = "https://en.wikipedia.org/wiki/Justin_Bieber"
+    } else {
+      alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
+      window.location.href = "about";
     }
   } else {
     alert("NOPE! Go read the plot summary a little better");
