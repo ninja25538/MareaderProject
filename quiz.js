@@ -26,6 +26,9 @@ if(q1.toLowerCase() == "time"){
         alert("Sorry, keep trying.");
             window.location.href = "about";
       }
+    } else if (q3.toLowerCase() == "justin bieber"){
+      alert("Wow, I didn't know Justin Bieber was in the book!");
+      window.location.href = "https://en.wikipedia.org/wiki/Justin_Bieber"
     }
   } else {
     alert("NOPE! Go read the plot summary a little better");
