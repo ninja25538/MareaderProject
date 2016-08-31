@@ -33,7 +33,11 @@ if(q1.toLowerCase() == "time"){
            alert("Drumroll please....");
            alert("A link to my game (that I'm still working on)!");
            alert("And an air 5");
-           window.location.href = "https://ninja25538.github.io/TheNightmare/"
+           var rating = prompt("On a scale of 1-10, how did you like this quiz");
+           alert("A " + rating + " ok");
+           localStorage.setItem("RATING", rating);
+           alert("Here's Da Link https://ninja25538.github.io/TheNightmare/");
+           window.location.href = "https://ninja25538.github.io/SecretPage/"
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
@@ -54,6 +58,10 @@ if(q1.toLowerCase() == "time"){
   } else {
     alert("NOPE! Go read the plot summary a little better");
     window.location.href = "about";
+  } else if (q2.toUpperCase() == "JOHN CENA"){
+    alert("Really, really");
+    alert("...");
+    window.location.href = "https://chrome.google.com/webstore/detail/unexpectedcena/mjdalodikccjmmdbdhibckcgmlakpjlk";
   }
 } else {
   alert("You......");
