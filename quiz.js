@@ -35,9 +35,7 @@ if(q1.toLowerCase() == "time"){
            alert("And an air 5");
            var rating = prompt("On a scale of 1-10, how did you like this quiz");
            alert("A " + rating + " ok");
-           localStorage.setItem("RATING", rating);
-           alert("Here's Da Link https://ninja25538.github.io/TheNightmare/");
-           window.location.href = "https://ninja25538.github.io/SecretPage/"
+           alert("Here, I'll send you to my project, it is not even close to done so...")
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
@@ -58,11 +56,7 @@ if(q1.toLowerCase() == "time"){
   } else {
     alert("NOPE! Go read the plot summary a little better");
     window.location.href = "about";
-  } else if (q2.toUpperCase() == "JOHN CENA"){
-    alert("Really, really");
-    alert("...");
-    window.location.href = "https://chrome.google.com/webstore/detail/unexpectedcena/mjdalodikccjmmdbdhibckcgmlakpjlk";
-  }
+  } 
 } else {
   alert("You......");
   alert("Failed go read the book or look at the plot summary.");
