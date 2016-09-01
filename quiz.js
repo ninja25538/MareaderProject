@@ -54,7 +54,7 @@ if(q1.toLowerCase() == "time"){
       window.location.href = "about";
     }
   } else {
-    alert("NOPE! Go read the plot summary a little better");
+    alert("NOPE! Is her name possibly John Cena? (Try putting that in for an Easter Egg)");
     window.location.href = "about";
   } else if (q2.toUpperCase() == "JOHN CENA"){
     alert("AND HIS (her) NAME IS JOHN CENA!!!!!");
