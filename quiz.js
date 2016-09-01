@@ -52,7 +52,6 @@ if(q1.toLowerCase() == "time"){
     } else {
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
-    }
   } else {
     alert("NOPE! Is her name possibly John Cena? (Try putting that in for an Easter Egg)");
     window.location.href = "about";
