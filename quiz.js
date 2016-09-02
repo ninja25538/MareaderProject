@@ -36,11 +36,23 @@ if(q1.toLowerCase() == "time"){
            var rating = prompt("On a scale of 1-10, how did you like this quiz");
            alert("A " + rating + " ok");
            alert("Here, I'll send you to my project, it is not even close to done so...");
+           window.location.href = "https://ninja25538.github.io/TheNightmare/"
+          } else {
+            alert("Nope though you almost FOUND the right answer!");
+            window.location.href = "about";
+          } else if (q6.toLowerCase() == "potato"){
+            alert("That makes loads of sense (I roll my eyes)");
+            window.location.href = "about";
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
           window.location.href = "https://en.wikipedia.org/wiki/Potato_chip";
-        }
+        } else if (q5.toLowerCase == "dorito"){
+          alert("WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+          alert("That sure makes alot of sense");
+          alert("Why don't you go study a bit...");
+          alert("...About Doritos");
+          window.location.href = "https://www.doritos.com.au/";
       } else {
         alert("Sorry, keep trying.");
             window.location.href = "about";
