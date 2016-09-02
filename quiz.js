@@ -52,3 +52,18 @@ if(q1.toLowerCase() == "time"){
     } else {
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
+  }  
+  }  else  if (q2.toUpperCase() == "JOHN CENA"){
+  alert("AND HIS (HER) NAME IS JOHN CENA!!");
+  window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
+} else {
+    alert("Nooooooo, is her name possibly john cena (Try using that)");
+  }
+} else {
+  alert("Nope, go study.");
+  window.location.href = "about";
+}
+} else if (ready === false){
+  alert("Ok then, why don't you go study some more.");
+  window.location.href = "about";
+}
