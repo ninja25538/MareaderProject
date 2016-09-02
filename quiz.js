@@ -54,6 +54,8 @@ if(q1.toLowerCase() == "time"){
       window.location.href = "about";
   }  
   }
+} else if (q2.toLowerCase !== "time"){
+  alert("Eh, nope");
 }
 } else if (ready === false){
   alert("Ok then, why don't you go study some more.");
