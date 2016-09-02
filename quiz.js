@@ -58,6 +58,7 @@ if(q1.toLowerCase() == "time"){
   window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
 } else {
     alert("Nooooooo, is her name possibly john cena (Try using that)");
+    window.location.href = "about";
   }
 } else {
   alert("Nope, go study.");
