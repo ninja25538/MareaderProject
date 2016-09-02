@@ -1,5 +1,5 @@
 var ready = confirm("Ready for the quiz?");
-if (ready == true){
+if (ready === true){
   alert("Alrighty then, let's begin!");
   alert("Note, answers are case-sensitive, sorry, and please use one word answers.");
   var q1 = prompt("First question, what do the main characters travel through?");
@@ -7,7 +7,7 @@ if (ready == true){
 if(q1.toLowerCase() == "time"){
   alert("COOOOOOOOOOORECT!");
   prompt("Is this too easy for you?");
-  alert("Well ok then")
+  alert("Well ok then");
   alert("Next question....");
   var q2 = prompt("What is the name of Jonah's sister?");
   if(q2.toLowerCase() == "katherine"){
@@ -35,7 +35,7 @@ if(q1.toLowerCase() == "time"){
            alert("And an air 5");
            var rating = prompt("On a scale of 1-10, how did you like this quiz");
            alert("A " + rating + " ok");
-           alert("Here, I'll send you to my project, it is not even close to done so...")
+           alert("Here, I'll send you to my project, it is not even close to done so...");
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
@@ -46,22 +46,16 @@ if(q1.toLowerCase() == "time"){
             window.location.href = "about";
       }
     } else if (q3.toLowerCase() == "justin bieber"){
-      alert("BABY BABY BABY! OH LIKE BABY BABY BABY OH!")
+      alert("BABY BABY BABY! OH LIKE BABY BABY BABY OH!");
       alert("Wow, I didn't know Justin Bieber was in the book! (Your wrong btw)");
-      window.location.href = "https://www.youtube.com/watch?v=kffacxfA7G4"
+      window.location.href = "https://www.youtube.com/watch?v=kffacxfA7G4";
     } else {
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
-  } else {
-    alert("NOPE! Is her name possibly John Cena? (Try putting that in for an Easter Egg)");
-    window.location.href = "about";
-  } else {
-  alert("You......");
-  alert("Failed go read the book or look at the plot summary.");
-    window.location.href = "about";
+  }  
+  }
 }
-
-} else if (ready == false){
+} else if (ready === false){
   alert("Ok then, why don't you go study some more.");
   window.location.href = "about";
 }
