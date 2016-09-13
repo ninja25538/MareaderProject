@@ -36,15 +36,15 @@ if(q1.toLowerCase() == "time"){
            var rating = prompt("On a scale of 1-10, how did you like this quiz");
            alert("A " + rating + " ok");
            alert("Here, I'll send you to my project, it is not even close to done so...");
-           window.location.href = "https://ninja25538.github.io/TheNightmare/";
-          }  else {
-            alert("Nope though you almost FOUND the right answer!");
-            window.location.href = "about";
-          } 
-        }  else {
+          }
+        } else {
           alert("You have a real CHIP on the shoulder, don't you.");
           window.location.href = "https://en.wikipedia.org/wiki/Potato_chip";
-        }  
+        }
+      } else {
+        alert("Sorry, keep trying.");
+            window.location.href = "about";
+      }
     } else if (q3.toLowerCase() == "justin bieber"){
       alert("BABY BABY BABY! OH LIKE BABY BABY BABY OH!");
       alert("Wow, I didn't know Justin Bieber was in the book! (Your wrong btw)");
@@ -52,52 +52,10 @@ if(q1.toLowerCase() == "time"){
     } else {
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
-  } 
-  }  else  if (q2.toUpperCase() == "JOHN CENA"){
-  alert("AND HIS (HER) NAME IS JOHN CENA!!");
-  window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
-} else {
-    alert("Nooooooo, is her name possibly john cena (Try using that)");
-    window.location.href = "about";
+  }  
   }
-} else {
-  alert("Nope, go study.");
-  window.location.href = "about";
 }
 } else if (ready === false){
   alert("Ok then, why don't you go study some more.");
   window.location.href = "about";
-}
-
-          }  else {
-            alert("Nope though you almost FOUND the right answer!");
-            window.location.href = "about";
-          } 
-        }  else {
-          alert("You have a real CHIP on the shoulder, don't you.");
-          window.location.href = "https://en.wikipedia.org/wiki/Potato_chip";
-        }  
-    } else if (q3.toLowerCase() == "justin bieber"){
-      alert("BABY BABY BABY! OH LIKE BABY BABY BABY OH!");
-      alert("Wow, I didn't know Justin Bieber was in the book! (Your wrong btw)");
-      window.location.href = "https://www.youtube.com/watch?v=kffacxfA7G4";
-    } else {
-      alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
-      window.location.href = "about";
-  } 
-  }  else  if (q2.toUpperCase() == "JOHN CENA"){
-  alert("AND HIS (HER) NAME IS JOHN CENA!!");
-  window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
-} else {
-    alert("Nooooooo, is her name possibly john cena (Try using that)");
-    window.location.href = "about";
-  }
-} else {
-  alert("Nope, go study.");
-  window.location.href = "about";
-}
-} else if (ready === false){
-  alert("Ok then, why don't you go study some more.");
-  window.location.href = "about";
-}
 }
