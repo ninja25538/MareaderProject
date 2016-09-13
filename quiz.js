@@ -1,3 +1,4 @@
+window.onload = function(){
 var ready = confirm("Ready for the quiz?");
 if (ready === true){
   alert("Alrighty then, let's begin!");
@@ -66,4 +67,5 @@ if(q1.toLowerCase() == "time"){
 } else if (ready === false){
   alert("Ok then, why don't you go study some more.");
   window.location.href = "about";
+}
 }
