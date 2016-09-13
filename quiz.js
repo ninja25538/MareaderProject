@@ -3,7 +3,7 @@ if (ready === true){
   alert("Alrighty then, let's begin!");
   alert("Note, answers are case-sensitive, sorry, and please use one word answers.");
   var q1 = prompt("First question, what do the main characters travel through?");
-  
+
 if(q1.toLowerCase() == "time"){
   alert("COOOOOOOOOOORECT!");
   prompt("Is this too easy for you?");
@@ -53,7 +53,15 @@ if(q1.toLowerCase() == "time"){
       alert("Nope, sorry, why don't you try using Justin Bieber for that question?");
       window.location.href = "about";
   }  
+  }  else  if (q2.toUpperCase() == "JOHN CENA"){
+  alert("AND HIS (HER) NAME IS JOHN CENA!!");
+  window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
+} else {
+    alert("Nooooooo, is her name possibly john cena (Try using that)");
   }
+} else {
+  alert("Nope, go study.");
+  window.location.href = "about";
 }
 } else if (ready === false){
   alert("Ok then, why don't you go study some more.");
