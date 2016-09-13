@@ -3,7 +3,7 @@ if (ready === true){
   alert("Alrighty then, let's begin!");
   alert("Note, answers are case-sensitive, sorry, and please use one word answers.");
   var q1 = prompt("First question, what do the main characters travel through?");
-
+  
 if(q1.toLowerCase() == "time"){
   alert("COOOOOOOOOOORECT!");
   prompt("Is this too easy for you?");
