@@ -55,6 +55,7 @@ if(q1.toLowerCase() == "time"){
       window.location.href = "about";
   }  
   }  else  if (q2.toUpperCase() == "JOHN CENA"){
+    alert("Warning, this will be REALLY loud")
   alert("AND HIS (HER) NAME IS JOHN CENA!!");
   window.location.href = "https://www.youtube.com/watch?v=Uufq_PFXbpA";
 } else {
