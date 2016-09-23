@@ -32,11 +32,23 @@ if(q1.toLowerCase() == "time"){
           if(q6.toLowerCase() == "found"){
            alert("YOU WIN......");
            alert("Drumroll please....");
-           alert("A link to my game (that I'm still working on)!");
-           alert("And an air 5");
+           alert("A feeling of satisfaction!");
+           alert("The best reward EVA!");
            var rating = prompt("On a scale of 1-10, how did you like this quiz");
            alert("A " + rating + " ok");
-           alert("Here, I'll send you to my project, it is not even close to done so...");
+           var satisfied = prompt("So, do you feel satisfied, yes or no?");
+           if (satisfied.toLowerCase() == "yes"){
+             alert("COOL! I bet your feeling sooooo satisfied, you want to take this quiz again!");
+             window.location.href = "about";
+           } else if (satisfied.toLowerCase() = "no"){
+             alert("Ok, that stinks =(");
+             alert("Why don't you take the quiz again to feel satisfied!");
+             window.location.href = "about"
+           } else {
+             alert("Forget it, you didn't answer yes or no");
+             window.location.href = "about";
+             
+           }
           }
         } else {
           alert("You have a real CHIP on the shoulder, don't you.");
